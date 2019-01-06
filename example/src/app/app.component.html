@@ -1,0 +1,21 @@
+
+<div id="root">
+
+<h1>Angular - basic routing</h1>
+
+<ul>
+	<li><span>Github URL:&nbsp;</span><a href="https://github.com/clane/ng-routing-basic">https://github.com/clane/ng-routing-basic</a></li>
+	<li><span>Hosting URL:&nbsp;</span><a href="http://chrislane.info/ng-routing-basic/dist/">http://chrislane.info/ng-routing-basic/dist/</a></li>
+</ul>
+
+
+<ul role="navigation">
+<li><a [attr.aria-current]="ariaCurrent1" routerLink="/component1">component 1</a></li>
+<li><a [attr.aria-current]="ariaCurrent2" routerLink="/component2">component 2</a></li>
+<li><a [attr.aria-current]="ariaCurrent3" routerLink="/component3">component 3</a></li>
+<li><a [attr.aria-current]="ariaCurrent4" routerLink="/component4">component 4</a></li>
+</ul>
+
+<router-outlet></router-outlet>
+
+</div> 
